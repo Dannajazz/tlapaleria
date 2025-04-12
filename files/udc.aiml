@@ -1,0 +1,58 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- 1. Respuesta general por defecto -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Lo siento, no entendí tu mensaje completamente. ¿Podrías reformularlo o darme más detalles?
+    </template>
+  </category>
+
+  <!-- 2. Saludos -->
+  <category>
+    <pattern>HOLA</pattern>
+    <template>¡Hola! ¿En qué puedo ayudarte hoy?</template>
+  </category>
+
+  <category>
+    <pattern>BUENOS DIAS</pattern>
+    <template>¡Buenos días! ¿Qué necesitas?</template>
+  </category>
+
+  <category>
+    <pattern>BUENAS TARDES</pattern>
+    <template>¡Buenas tardes! Estoy aquí para ayudarte.</template>
+  </category>
+
+  <category>
+    <pattern>BUENAS NOCHES</pattern>
+    <template>¡Buenas noches! ¿Cómo puedo asistirte?</template>
+  </category>
+
+  <!-- 3. Palabras clave (ejemplos) -->
+  <category>
+    <pattern>AYUDA</pattern>
+    <template>Claro, dime con qué necesitas ayuda específicamente.</template>
+  </category>
+
+  <category>
+    <pattern>INFORMACION</pattern>
+    <template>¿Sobre qué tema te gustaría recibir información?</template>
+  </category>
+
+  <category>
+    <pattern>SOPORTE</pattern>
+    <template>Estoy disponible para darte soporte. ¿Cuál es el problema?</template>
+  </category>
+
+  <category>
+    <pattern>CONTACTO</pattern>
+    <template>Puedes contactarnos mediante nuestro correo: soporte@empresa.com</template>
+  </category>
+
+  <category>
+    <pattern>SERVICIOS</pattern>
+    <template>Ofrecemos una variedad de servicios. ¿Te interesa alguno en particular?</template>
+  </category>
+
+</aiml>
